@@ -1,0 +1,372 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+}
+
+/* Style for Home */
+.cafe-bar  {
+    background-color: #6F3E24;
+}
+
+.cafe-bar .navbar-brand{
+    color:white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+} 
+
+.navbar-brand img {
+    width: 45px;
+    height: 45px;
+}
+
+.cafe-bar .navbar-brand:hover {
+    color: white;
+}
+
+.navbar .navbar-nav .nav-link{
+    color:white
+}
+
+.navbar .navbar-nav .nav-link.active
+{
+    color:white;
+}
+
+.navbar .btn-outline-success {
+    color: white;
+    border-color: white;
+}
+
+.navbar .btn-outline-success:hover {
+    background-color: white;
+    color: brown;
+    border-color: white;
+}
+
+.nav-item:hover{
+    color:brown;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: burlywood;
+    transition: 0.3s;
+}
+
+#carouselExampleIndicators{
+    width: 100%;
+    margin-top:10px;
+}
+
+#carouselExampleIndicators .carousel-item img {
+    width: 100%;
+    height: 450px;
+}
+
+.product-grid{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:50px;
+}
+
+.product-grid .card{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-grid .card:hover{
+    background-color: burlywood;
+    transform: scale(1.03);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.Best-seller{
+    margin:100px 10px;
+}
+
+.Best-seller h1{
+    text-align: center;
+}
+
+.card .object-fit-fill{
+    height:290px;
+}
+
+.reviews{
+    margin-top:100px;
+    text-align: center;
+    padding:20px;
+    background-color: bisque;
+}
+
+.review-card{
+        background-color: white;
+        border-radius: 15px;
+        padding:25px 15px;
+        height:100%;  
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review-card:hover{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    transform: scale(1.03);
+    background-color: burlywood;
+    
+}
+
+.review-card img{
+    width:85px;
+    height:85px;
+    border-radius: 50%;
+}
+
+.stars{
+    color: #D49A32;
+    font-size: 20px;
+}
+
+.reviews .container{
+    flex-wrap:wrap;
+    gap:30px;
+    display:flex;
+}
+
+.footer-con{
+    margin-top: 30px;
+}
+
+.accordion-flush .accordion-card{
+    border:1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    background-color: white;
+}
+
+.accordion-button{
+    height:50px;
+    background-color: bisque;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+.accordion-button:hover{
+    background-color: burlywood;
+    box-shadow: none;
+}
+
+.accordion-body{
+    font-style: italic;
+}
+
+.intro{
+    text-align: center;
+    margin-top:30px;
+}
+
+.accordion-flush{ 
+    padding:50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+    align-items: start;
+}
+/* Style for Home */
+
+
+/* Style for Menu */
+.Menu{
+    margin-top:20px;
+    padding:10px;
+    padding-bottom: 20px;
+    background-color: bisque;
+}
+
+.Menu h2{
+    text-align: center;
+}
+.coffee-grid{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap:20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
+}
+
+.coffee-grid .card:hover{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    transform: scale(1.03);
+    background-color: burlywood;
+}
+
+.Menu1{
+    margin-top:20px;
+    padding:10px;
+}
+
+.Menu1 h2{
+    text-align: center;
+}
+
+.cold-grid {
+    display:grid;
+    grid-template-columns: repeat(5,  1fr);
+    gap:20px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
+}
+
+.cold-grid .card:hover{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    transform: scale(1.03);
+    background-color: burlywood;
+}
+
+.meal-grid {
+    display:grid;
+    grid-template-columns: repeat(5,  1fr);
+    gap:20px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
+}
+
+.meal-grid .card:hover{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    transform: scale(1.03);
+    background-color: burlywood;
+}
+
+.Menu2{
+    margin-top:20px;
+    padding:10px;
+    padding-bottom: 20px;
+    background-color: bisque;
+}
+
+.Menu2 h2{
+    text-align: center;
+}
+
+.banner img{
+    width: 100%;
+    height: 450px;
+}
+/* Style for Menu */
+
+
+/*Style for About Us */
+.introduction{
+    margin-top: 30px;
+    text-align: justify;
+    padding:30px;
+}
+
+.introduction .bi{
+    color: #6F3E24;
+    margin-right: 10px;
+    font-size: 50px;
+}
+.our-story{
+    margin-top: 30px;
+    text-align: justify;
+    padding:30px;
+    background-color: bisque;
+}
+
+.our-story .bi{
+    color: #6F3E24;
+    margin-right: 10px;
+    font-size: 50px;
+}
+
+.mission{
+    margin-top: 30px;
+    text-align: justify;
+    padding:30px;
+}
+
+.mission .bi{
+    color: #6F3E24;
+    margin-right: 10px;
+    font-size: 50px;
+}
+
+.choose-us{
+    margin-top: 30px;
+    text-align: justify;
+    padding:30px;
+    background-color: bisque;
+}
+
+.choose-us .bi{
+    color: #6F3E24;
+    margin-right: 10px;
+    font-size: 50px;
+}
+
+.qaulity-flavor{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.qaulity-flavor .bi{
+    color: #6F3E24;
+    margin-right: 10px;
+    font-size: 30px;
+}
+.warm-hospitality{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.warm-hospitality .bi{
+    color: #6F3E24;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.cozy{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.cozy .bi{
+    color: #6F3E24;
+    margin-right: 10px;
+    font-size: 30px;
+}
+/* Style for About Us */
+
+/* Style for Contact Us */
+.info{
+    margin-top:30px;
+    text-align: center;
+}
+
+.info .card-body img{
+    height:30px; 
+    width:30px;
+}
+
+.info .card{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    background-color: white;
+}
+
+.loc{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    padding:40px;
+    margin-left:100px;
+}
+
+.loc .bi{
+    font-size: 20px;
+}
+/* Style for Contact Us */
